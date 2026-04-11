@@ -1034,7 +1034,7 @@
             <p class="hero-desc">
                 <strong>Builder, not just a coder.</strong> I build AI-powered products,
                 backend systems, and DevOps pipelines that solve real problems for real people.
-                Built <strong>Khabar AI</strong> — hyperlocal voice news for rural India.
+                Built <strong>Khabar AI</strong> — an automated national prime-time news broadcast.
             </p>
             <div class="hero-actions">
                 <a href="#projects" class="btn-primary">
@@ -1092,9 +1092,9 @@
                     something that breaks in production and fix it at 2am.
                 </p>
                 <p>
-                    Currently building <strong>Khabar AI</strong> — a Telegram bot that delivers
-                    hyperlocal Hindi voice news to rural Indians who national news apps completely ignore.
-                    600M people. Zero coverage. I am fixing that.
+                    Currently building <strong>Khabar AI</strong> — an enterprise-grade automated national
+                    news pipeline for Telegram. Utilizing Map-Reduce LLM architecture to deliver
+                    flawless, high-energy prime-time audio broadcasts every morning.
                 </p>
                 <p>
                     Open to <strong>internships and collaborations</strong>
@@ -1173,21 +1173,20 @@
                 <div>
                     <div class="project-num">01 — Featured</div>
                     <h3 class="project-title">Khabar AI 🎙️</h3>
-                    <div class="project-tagline">Aapke gaon ki awaaz, roz subah 9 baje.</div>
+                    <div class="project-tagline">India's Superfast Prime-Time Audio Broadcast.</div>
                     <p class="project-desc">
-                        A hyperlocal voice news agent for Telegram. Users send their pincode once —
-                        every morning at 9am they receive a 60-second Hindi voice note of top 5 district-level
-                        news stories. Built for the 600M rural Indians that national news apps completely ignore.
-                        Fully automated: FastAPI + Groq AI + Microsoft Neural TTS + APScheduler.
+                        An enterprise-grade automated national news pipeline for Telegram. Utilizes a Map-Reduce LLM
+                        architecture with concurrent queries and semantic deduplication to synthesize high-energy
+                        radio broadcasts. Features authenticated news streams and flawless Hindi voice synthesis.
                     </p>
                     <div class="project-tags">
                         <span class="tag">FastAPI</span>
                         <span class="tag">PostgreSQL</span>
-                        <span class="tag">Groq AI</span>
+                        <span class="tag">Map-Reduce LLM</span>
+                        <span class="tag">NewsData.io</span>
                         <span class="tag">edge-tts</span>
                         <span class="tag">Telegram</span>
                         <span class="tag">Docker</span>
-                        <span class="tag">Kubernetes</span>
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/shivansh-gohem/khabar-ai" target="_blank" class="project-link">
@@ -1201,20 +1200,19 @@
                         <div class="dot dot-y"></div>
                         <div class="dot dot-g"></div>
                     </div>
-                    <div class="terminal-code">$ curl /health
-                        {"status": "ok"}
+                    <div class="terminal-code">$ POST /admin/generate-caches
+                        {"status": "processing"}
 
                         $ POST /webhook
-                        {"from": "Shivansh", "pincode": "482001"}
+                        {"from": "Shivansh", "action": "/news"}
 
-                        → Lookup: Jabalpur, MP ✓
-                        → Fetch: 5 local articles ✓
-                        → Groq: Hinglish script ✓
-                        → TTS: 370KB audio ✓
+                        → Map-Reduce: Parallel LLM Queries ✓
+                        → Intersection Deduplication ✓
+                        → Synth: hi-IN-MadhurNeural ✓
                         → Deliver: 9:00 AM IST ✓
 
-                        [INFO] Pipeline: 2.3s
-                        [INFO] Users delivered: 47</div>
+                        [INFO] Pipeline: 1.8s
+                        [INFO] Broadcast delivered ✓</div>
                 </div>
             </div>
 
