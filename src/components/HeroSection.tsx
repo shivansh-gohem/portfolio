@@ -52,7 +52,7 @@ const HeroSection = () => {
 
         <div className="inline-block bg-primary/80 px-4 py-2 pixel-border mb-3">
           <p className="text-[10px] md:text-sm font-pixel text-foreground tracking-wider">
-            SOFTWARE DEVELOPER
+            SOFTWARE DEV & DEVOPS ENTHUSIAST
           </p>
         </div>
 
