@@ -23,7 +23,7 @@ const AboutSection = () => {
             <p className="text-[9px] md:text-[11px] font-pixel text-foreground/90 leading-[3] text-center">
               B.TECH CSE STUDENT AT JABALPUR ENGINEERING COLLEGE (2023–2027).
               I BUILD AI-POWERED SYSTEMS, BACKEND SERVICES, AND DEVOPS PIPELINES.
-              150+ LEETCODE PROBLEMS SOLVED. 30+ OPEN SOURCE PRs MERGED.
+              150+ LEETCODE & 200+ GFG PROBLEMS SOLVED. 30+ OPEN SOURCE PRs MERGED.
             </p>
           </div>
         </ScrollReveal>
@@ -34,8 +34,8 @@ const AboutSection = () => {
         <div className="space-y-3">
           {[
             { school: "JABALPUR ENGINEERING COLLEGE", degree: "B.TECH CSE", year: "2023-2027", score: "CGPA 7.12" },
-            { school: "KASTURBA VIDYA MANDIR", degree: "12TH GRADE (MPBSE)", year: "2022", score: "82.6%" },
-            { school: "ST. MARY'S CO-ED SR. SEC. SCHOOL", degree: "10TH GRADE (CBSE)", year: "2020", score: "91%" },
+            { school: "KASTURBA VIDYA MANDIR", degree: "12TH GRADE (MPBSE)", year: "2023", score: "82.6%" },
+            { school: "ST. MARY'S CO-ED SR. SEC. SCHOOL", degree: "10TH GRADE (CBSE)", year: "2021", score: "91%" },
           ].map((edu, i) => (
             <ScrollReveal key={edu.school} delay={0.2 + i * 0.1} direction="left">
               <div className="glass-card rounded-lg p-4 md:p-5 hover:bg-foreground/5 transition-colors duration-300">
@@ -55,7 +55,7 @@ const AboutSection = () => {
           {[
             { label: "LEETCODE", value: "150+", icon: "🪙" },
             { label: "OSS PRs", value: "30+", icon: "⭐" },
-            { label: "GFG", value: "100+", icon: "❤️" },
+            { label: "GFG", value: "200+", icon: "❤️" },
           ].map((stat, i) => (
             <ScrollReveal key={stat.label} delay={0.1 + i * 0.12}>
               <div className="glass-card rounded-lg p-5 text-center hover:bg-foreground/5 transition-colors duration-300 group">

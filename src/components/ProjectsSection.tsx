@@ -4,8 +4,8 @@ const projects = [
   {
     title: "WORLD 2-1",
     name: "KHABAR AI",
-    desc: "ENTERPRISE-GRADE TELEGRAM NEWS BROADCASTER CURATING DAILY AI & TECH BULLETINS. MAP-REDUCE LLM PIPELINE DISPATCHING 3 CONCURRENT GROQ QUERIES. IMPLEMENTED NOUN-LEVEL SEMANTIC DEDUPLICATION ENGINE.",
-    tech: ["FASTAPI", "POSTGRESQL", "GROQ", "NEWSDATA.IO", "DOCKER"],
+    desc: "AUTONOMOUS AI & TECH NEWS BROADCASTER. MAP-REDUCE LLM PIPELINE WITH 3 PARALLEL GROQ CALLS. MULTI-PROVIDER LLM FACTORY. QDRANT VECTOR DB WITH COSINE SIMILARITY DEDUPLICATION.",
+    tech: ["FASTAPI", "POSTGRESQL", "GROQ", "QDRANT", "NEWSDATA.IO", "DOCKER"],
     link: "https://github.com/shivansh-gohem/khabar-ai",
     accent: "from-mario-pipe/20 to-mario-pipe/5",
     iconBg: "bg-secondary/20",
@@ -13,8 +13,8 @@ const projects = [
   {
     title: "WORLD 2-2",
     name: "DEVCONNECT",
-    desc: "AI-POWERED DEVELOPER MATCHMAKER USING RAG AND VECTOR EMBEDDINGS. REAL-TIME CHAT ROOMS WITH GO CHANNELS AND WEBSOCKETS. GEMINI-POWERED AI CHATBOT FOR PROGRAMMING Q&A.",
-    tech: ["GO", "POSTGRESQL", "PGVECTOR", "GEMINI AI", "WEBSOCKETS", "DOCKER"],
+    desc: "AI-POWERED DEVELOPER MATCHMAKING PLATFORM. RAG AND PGVECTOR EMBEDDINGS (GEMINI 2.5 FLASH) FOR PROFILE SEARCH. CONCURRENT CHAT ROOMS WITH GO CHANNELS & WEBSOCKETS. FULL STACK CONTAINERIZED K8S DEPLOYMENT.",
+    tech: ["GO", "POSTGRESQL", "PGVECTOR", "GEMINI AI", "WEBSOCKETS", "DOCKER", "K8S"],
     link: "https://github.com/shivansh-gohem/ai-match",
     accent: "from-mario-red/15 to-mario-red/5",
     iconBg: "bg-primary/20",
@@ -79,7 +79,7 @@ const ProjectsSection = () => {
             {[
               { text: "BUILT & SHIPPED KHABAR AI v2 — ENTERPRISE TELEGRAM NEWS BROADCASTER WITH MAP-REDUCE LLM", icon: "🏅" },
               { text: "30+ PULL REQUESTS MERGED ACROSS OPEN SOURCE REPOS", icon: "🔀" },
-              { text: "150+ LEETCODE & 100+ GFG PROBLEMS SOLVED", icon: "💡" },
+              { text: "150+ LEETCODE & 200+ GFG PROBLEMS SOLVED", icon: "💡" },
               { text: "DEVOPS BOOTCAMP CERTIFIED — JENKINS, DOCKER, K8S, TERRAFORM, AWS", icon: "📜" },
             ].map((item, i) => (
               <ScrollReveal key={i} delay={0.1 + i * 0.1}>

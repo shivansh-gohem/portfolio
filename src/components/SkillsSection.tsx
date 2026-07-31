@@ -1,12 +1,12 @@
 import ScrollReveal from "./ScrollReveal";
 
 const skillCategories = [
-  { category: "LANGUAGES", icon: "🍄", skills: ["PYTHON", "JAVA", "C++", "GO"] },
-  { category: "AI & LLM", icon: "⭐", skills: ["GROQ API", "LANGCHAIN", "GEMINI", "OPENAI", "RAG"] },
-  { category: "BACKEND", icon: "🌿", skills: ["FASTAPI", "GO (GIN)", "REST APIs", "WEBSOCKETS", "POSTGRESQL"] },
-  { category: "DEVOPS", icon: "🪶", skills: ["DOCKER", "KUBERNETES", "JENKINS", "TERRAFORM", "AWS"] },
-  { category: "AUTOMATION", icon: "🐢", skills: ["TELEGRAM BOT API", "GITHUB ACTIONS", "n8n", "ASYNCIO"] },
-  { category: "TOOLS", icon: "🧱", skills: ["GIT", "LINUX", "VS CODE", "CLOUDFLARE"] },
+  { category: "LANGUAGES", icon: "🍄", skills: ["PYTHON", "GO", "C++"] },
+  { category: "AI & LLM", icon: "⭐", skills: ["GROQ API", "GEMINI", "OPENAI", "LANGCHAIN", "RAG", "PGVECTOR", "QDRANT"] },
+  { category: "BACKEND", icon: "🌿", skills: ["FASTAPI", "GO (GIN)", "REST APIs", "WEBSOCKETS", "POSTGRESQL", "SQLALCHEMY", "ASYNCPG"] },
+  { category: "DEVOPS", icon: "🪶", skills: ["DOCKER", "KUBERNETES", "JENKINS", "ANSIBLE", "TERRAFORM", "AWS"] },
+  { category: "AUTOMATION", icon: "🐢", skills: ["APSCHEDULER", "TELEGRAM BOT API", "GITHUB ACTIONS", "ASYNCIO", "N8N"] },
+  { category: "TOOLS", icon: "🧱", skills: ["GIT", "GITHUB", "LINUX", "VS CODE", "NGROK"] },
 ];
 
 const SkillsSection = () => {
