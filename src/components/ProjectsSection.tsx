@@ -4,8 +4,8 @@ const projects = [
   {
     title: "WORLD 2-1",
     name: "KHABAR AI",
-    desc: "ENTERPRISE-GRADE NATIONAL VOICE NEWS BROADCAST SYSTEM. MAP-REDUCE LLM ARCHITECTURE WITH 3 PARALLEL GROQ API CALLS. AUTOMATED TELEGRAM BOT DELIVERING 30-STORY HINGLISH VOICE BROADCASTS DAILY.",
-    tech: ["FASTAPI", "POSTGRESQL", "GROQ", "LLAMA 3.3", "DOCKER", "K8S"],
+    desc: "ENTERPRISE-GRADE TELEGRAM NEWS BROADCASTER CURATING DAILY AI & TECH BULLETINS. MAP-REDUCE LLM PIPELINE DISPATCHING 3 CONCURRENT GROQ QUERIES. IMPLEMENTED NOUN-LEVEL SEMANTIC DEDUPLICATION ENGINE.",
+    tech: ["FASTAPI", "POSTGRESQL", "GROQ", "NEWSDATA.IO", "DOCKER"],
     link: "https://github.com/shivansh-gohem/khabar-ai",
     accent: "from-mario-pipe/20 to-mario-pipe/5",
     iconBg: "bg-secondary/20",
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              { text: "BUILT & SHIPPED KHABAR AI v2 — NATIONAL VOICE NEWS WITH MAP-REDUCE LLM", icon: "🏅" },
+              { text: "BUILT & SHIPPED KHABAR AI v2 — ENTERPRISE TELEGRAM NEWS BROADCASTER WITH MAP-REDUCE LLM", icon: "🏅" },
               { text: "30+ PULL REQUESTS MERGED ACROSS OPEN SOURCE REPOS", icon: "🔀" },
               { text: "150+ LEETCODE & 100+ GFG PROBLEMS SOLVED", icon: "💡" },
               { text: "DEVOPS BOOTCAMP CERTIFIED — JENKINS, DOCKER, K8S, TERRAFORM, AWS", icon: "📜" },
