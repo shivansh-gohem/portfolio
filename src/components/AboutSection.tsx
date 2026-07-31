@@ -33,7 +33,7 @@ const AboutSection = () => {
         </ScrollReveal>
         <div className="space-y-3">
           {[
-            { school: "JABALPUR ENGINEERING COLLEGE", degree: "B.TECH CSE", year: "2023-2027", score: "CGPA 7.39" },
+            { school: "JABALPUR ENGINEERING COLLEGE", degree: "B.TECH CSE", year: "2023-2027", score: "CGPA 7.12" },
             { school: "KASTURBA VIDYA MANDIR", degree: "12TH GRADE (MPBSE)", year: "2022", score: "82.6%" },
             { school: "ST. MARY'S CO-ED SR. SEC. SCHOOL", degree: "10TH GRADE (CBSE)", year: "2020", score: "91%" },
           ].map((edu, i) => (
